@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    text-align: center;
+}
+
+div.stopwatch{
+    width: 250px;
+    height: 250px;
+    background-color: teal;
+    background-image: url("bc.png");
+    color: rgb(18, 243, 243);
+    display: inline-block;
+    text-align: center;
+    border-radius: 20%;
+}
+
+div.stopwatch h2{
+background-color: white;
+color: black;
+display: inline-block;
+text-align: center;
+margin-top: 200px;
+width: 50px;
+border-radius: 5px;
+}
+.btn{
+    text-align: center;
+    border: thin;
+    margin-top: 10px;
+}
+
+button{
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+   
+    align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 1% 0;
+            cursor: pointer;
+            text-decoration: none;
+/* 
+            display: flex;
+            background-color: rgb(253, 241, 153);
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 20px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            align-items: center; */
+            
+}
+
+button{
+    text-align: center;
+}
+
+#save{
+    width: auto;
+    display: inline-block;
+    position: relative;
+    right: 50%;
+    left: 35%;
+}
+
+
